@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+casd,,,,13-05-2024 15:42:41,13-05-2024 15:42:54,12.972s,FAILED
+,,,,,,,
+Test Cases/2,,,,13-05-2024 15:42:52,13-05-2024 15:42:54,2.019s,FAILED
+"openBrowser("""")",,,,13-05-2024 15:42:52,13-05-2024 15:42:54,2.010s,FAILED
