@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="casd" time="30.363" tests="1" failures="0" errors="0">
+   <testsuite name="casd" tests="1" failures="0" errors="0" time="30.363" skipped="0" timestamp="13-05-2024T15:50:50" hostname="luantran - localhost" id="Test Suites/casd">
+      <properties>
+         <property name="deviceName"/>
+         <property name="devicePlatform" value="WINDOWS"/>
+         <property name="logFolder" value="/Users/luantran/git/Data/Katalon/Reports/20240513_155044/casd/20240513_155045"/>
+         <property name="logFiles" value="/Users/luantran/git/Data/Katalon/Reports/20240513_155044/casd/20240513_155045/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="luantran - localhost"/>
+         <property name="remoteDriverUrl" value="testcloud.katalon.com/hub"/>
+         <property name="desiredCapabilities" value="{&#xa;  &quot;timeouts&quot;: {&#xa;    &quot;implicit&quot;: 0,&#xa;    &quot;pageLoad&quot;: 300000,&#xa;    &quot;script&quot;: 30000&#xa;  },&#xa;  &quot;se:cdpEnabled&quot;: false,&#xa;  &quot;platform&quot;: &quot;WINDOWS&quot;,&#xa;  &quot;goog:chromeOptions&quot;: {&#xa;    &quot;debuggerAddress&quot;: &quot;localhost:9225&quot;&#xa;  },&#xa;  &quot;webauthn:extension:credBlob&quot;: true,&#xa;  &quot;acceptInsecureCerts&quot;: false,&#xa;  &quot;browserVersion&quot;: &quot;123.0.0.0&quot;,&#xa;  &quot;fedcm:accounts&quot;: true,&#xa;  &quot;kt:requestId&quot;: &quot;56081879-c849-43de-a629-42dc65a7ae55&quot;,&#xa;  &quot;browserName&quot;: &quot;chrome&quot;,&#xa;  &quot;javascriptEnabled&quot;: true,&#xa;  &quot;katalon:option&quot;: {&#xa;    &quot;userId&quot;: 1507694,&#xa;    &quot;organizationId&quot;: &quot;1511151&quot;,&#xa;    &quot;runFromTestCloud&quot;: true,&#xa;    &quot;usingTunnel&quot;: false&#xa;  },&#xa;  &quot;platformName&quot;: &quot;WINDOWS&quot;,&#xa;  &quot;setWindowRect&quot;: true,&#xa;  &quot;webauthn:extension:largeBlob&quot;: true,&#xa;  &quot;networkConnectionEnabled&quot;: false,&#xa;  &quot;chrome&quot;: {&#xa;    &quot;chromedriverVersion&quot;: &quot;123.0.6312.46 (29781e6ca5d285929823c0071a9696eff1215fed-refs/branch-heads/6312@{#559})&quot;,&#xa;    &quot;userDataDir&quot;: &quot;C:\\Windows\\SystemTemp\\scoped_dir1216_574050024&quot;&#xa;  },&#xa;  &quot;kt:rid&quot;: &quot;56081879-c849-43de-a629-42dc65a7ae55&quot;,&#xa;  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,&#xa;  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,&#xa;  &quot;strictFileInteractability&quot;: false,&#xa;  &quot;***:loadExtension&quot;: [&#xa;    &quot;https://prod-magicleap-user-files-us-east-1-v1.s3.amazonaws.com/extensions/orgId-691279/SmartWait.zip&quot;&#xa;  ],&#xa;  &quot;se:bidiEnabled&quot;: false,&#xa;  &quot;proxy&quot;: {&#xa;    &quot;proxyType&quot;: &quot;UNSPECIFIED&quot;,&#xa;    &quot;autodetect&quot;: false&#xa;  },&#xa;  &quot;webauthn:extension:minPinLength&quot;: true,&#xa;  &quot;webauthn:extension:prf&quot;: true,&#xa;  &quot;webauthn:virtualAuthenticators&quot;: true&#xa;}"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="remoteOS" value="Windows"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="browser" value="Chrome 123.0.0.0"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="be92b130305dcad77676dd6bda8c8dac"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/2" time="30.295" classname="Test Cases/2" status="PASSED">
+         <system-out><![CDATA[13-05-2024T15:50:50 - [TEST_CASE][PASSED] - Test Cases/2: Test Cases/2
+
+13-05-2024T15:50:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-05-2024T15:50:51 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+13-05-2024T15:50:51 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+13-05-2024T15:50:51 - [MESSAGE][INFO] - User set preference: ['browserVersion', '123']
+
+13-05-2024T15:50:51 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1511151, tunnelId=, usingTunnel=false}']
+
+13-05-2024T15:50:51 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+13-05-2024T15:50:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-05-2024T15:51:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-05-2024T15:51:15 - [TEST_STEP][PASSED] - navigateToUrl("https://github.com"): Navigate to 'https://github.com' successfully
+
+13-05-2024T15:51:18 - [MESSAGE][PASSED] - Navigate to 'https://github.com' successfully
+
+13-05-2024T15:51:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+13-05-2024T15:51:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[13-05-2024T15:50:50 - [TEST_SUITE][PASSED] - casd: Test Cases/2]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+casd,Windows - Chrome 123.0.0.0,,,13-05-2024 15:50:24,13-05-2024 15:50:54,29.884s,PASSED
+,,,,,,,
+Test Cases/2,Windows - Chrome 123.0.0.0,,,13-05-2024 15:50:24,13-05-2024 15:50:54,29.815s,PASSED
+"openBrowser("""")",Windows - Chrome 123.0.0.0,,,13-05-2024 15:50:24,13-05-2024 15:50:49,24.766s,PASSED
+"navigateToUrl(""https://github.com"")",Windows - Chrome 123.0.0.0,,,13-05-2024 15:50:49,13-05-2024 15:50:51,2.881s,PASSED
+closeBrowser(),Windows - Chrome 123.0.0.0,,,13-05-2024 15:50:51,13-05-2024 15:50:54,2.071s,PASSED
